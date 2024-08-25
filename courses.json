@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Python",
+    "description": "Learn the basics of Python programming.",
+    "link": "https://example.com/python-course"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Fundamentals",
+    "description": "A comprehensive guide to JavaScript programming.",
+    "link": "https://example.com/javascript-course"
+  },
+  {
+    "id": 3,
+    "title": "Web Development with HTML & CSS",
+    "description": "Build responsive websites with HTML and CSS.",
+    "link": "https://example.com/html-css-course"
+  },
+  {
+    "id": 4,
+    "title": "React for Beginners",
+    "description": "Introduction to React.js and building user interfaces.",
+    "link": "https://example.com/react-course"
+  },
+  {
+    "id": 5,
+    "title": "Node.js and Express",
+    "description": "Backend development with Node.js and Express.",
+    "link": "https://example.com/nodejs-course"
+  },
+  {
+    "id": 6,
+    "title": "Advanced Python",
+    "description": "Deep dive into advanced Python topics.",
+    "link": "https://example.com/advanced-python"
+  },
+  {
+    "id": 7,
+    "title": "Database Management with SQL",
+    "description": "Learn how to manage databases using SQL.",
+    "link": "https://example.com/sql-course"
+  },
+  {
+    "id": 8,
+    "title": "Mobile App Development with Flutter",
+    "description": "Build mobile applications using Flutter.",
+    "link": "https://example.com/flutter-course"
+  },
+  {
+    "id": 9,
+    "title": "Data Science with Python",
+    "description": "Learn data science concepts using Python.",
+    "link": "https://example.com/data-science-python"
+  },
+  {
+    "id": 10,
+    "title": "Machine Learning with TensorFlow",
+    "description": "Introduction to machine learning with TensorFlow.",
+    "link": "https://example.com/tensorflow-course"
+  },
+  {
+    "id": 11,
+    "title": "Cybersecurity Fundamentals",
+    "description": "Learn the basics of cybersecurity.",
+    "link": "https://example.com/cybersecurity-course"
+  },
+  {
+    "id": 12,
+    "title": "DevOps Practices",
+    "description": "Learn the principles and practices of DevOps.",
+    "link": "https://example.com/devops-course"
+  },
+  {
+    "id": 13,
+    "title": "Game Development with Unity",
+    "description": "Create games using the Unity engine.",
+    "link": "https://example.com/unity-course"
+  },
+  {
+    "id": 14,
+    "title": "Cloud Computing with AWS",
+    "description": "Learn cloud computing with Amazon Web Services.",
+    "link": "https://example.com/aws-course"
+  },
+  {
+    "id": 15,
+    "title": "Artificial Intelligence Basics",
+    "description": "Introduction to artificial intelligence concepts.",
+    "link": "https://example.com/ai-course"
+  },
+  {
+    "id": 16,
+    "title": "Blockchain Technology",
+    "description": "Learn the fundamentals of blockchain technology.",
+    "link": "https://example.com/blockchain-course"
+  },
+  {
+    "id": 17,
+    "title": "Internet of Things (IoT)",
+    "description": "Introduction to IoT and its applications.",
+    "link": "https://example.com/iot-course"
+  },
+  {
+    "id": 18,
+    "title": "Big Data Analytics",
+    "description": "Learn how to analyze big data.",
+    "link": "https://example.com/big-data-course"
+  },
+  {
+    "id": 19,
+    "title": "Agile Project Management",
+    "description": "Learn Agile project management methodologies.",
+    "link": "https://example.com/agile-course"
+  },
+  {
+    "id": 20,
+    "title": "PHP for Web Development",
+    "description": "Learn how to build web applications with PHP.",
+    "link": "https://example.com/php-course"
+  },
+  {
+    "id": 21,
+    "title": "Introduction to Kotlin",
+    "description": "Learn the basics of Kotlin programming.",
+    "link": "https://example.com/kotlin-course"
+  }
+]

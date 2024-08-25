@@ -1,0 +1,109 @@
+{
+  "resources": [
+    {
+      "title": "Python Cheat Sheet",
+      "description": "Quick reference guide for Python programming.",
+      "link": "https://example.com/python-cheat-sheet"
+    },
+    {
+      "title": "JavaScript Guide",
+      "description": "Comprehensive guide to JavaScript.",
+      "link": "https://example.com/javascript-guide"
+    },
+    {
+      "title": "HTML & CSS Tips",
+      "description": "Helpful tips for HTML and CSS.",
+      "link": "https://example.com/html-css-tips"
+    },
+    {
+      "title": "React.js Basics",
+      "description": "Introduction to React.js.",
+      "link": "https://example.com/react-basics"
+    },
+    {
+      "title": "Node.js Tutorial",
+      "description": "Learn Node.js from scratch.",
+      "link": "https://example.com/node-tutorial"
+    },
+    {
+      "title": "SQL for Beginners",
+      "description": "Getting started with SQL.",
+      "link": "https://example.com/sql-beginners"
+    },
+    {
+      "title": "Python Advanced",
+      "description": "Deep dive into advanced Python topics.",
+      "link": "https://example.com/python-advanced"
+    },
+    {
+      "title": "JavaScript Patterns",
+      "description": "Best practices for JavaScript design patterns.",
+      "link": "https://example.com/javascript-patterns"
+    },
+    {
+      "title": "CSS Grid Layout",
+      "description": "Guide to CSS Grid Layout.",
+      "link": "https://example.com/css-grid"
+    },
+    {
+      "title": "React Hooks",
+      "description": "Learn about React hooks.",
+      "link": "https://example.com/react-hooks"
+    },
+    {
+      "title": "Express.js",
+      "description": "Building web applications with Express.js.",
+      "link": "https://example.com/express"
+    },
+    {
+      "title": "SQL Optimization",
+      "description": "Optimizing SQL queries for performance.",
+      "link": "https://example.com/sql-optimization"
+    },
+    {
+      "title": "Python Data Science",
+      "description": "Using Python for data science.",
+      "link": "https://example.com/python-data-science"
+    },
+    {
+      "title": "JavaScript ES6",
+      "description": "Introduction to ES6 features in JavaScript.",
+      "link": "https://example.com/javascript-es6"
+    },
+    {
+      "title": "CSS Flexbox",
+      "description": "Guide to CSS Flexbox.",
+      "link": "https://example.com/css-flexbox"
+    },
+    {
+      "title": "React State Management",
+      "description": "Managing state in React applications.",
+      "link": "https://example.com/react-state"
+    },
+    {
+      "title": "Node.js Streams",
+      "description": "Working with streams in Node.js.",
+      "link": "https://example.com/node-streams"
+    },
+    {
+      "title": "Advanced SQL",
+      "description": "Advanced SQL querying techniques.",
+      "link": "https://example.com/advanced-sql"
+    },
+    {
+      "title": "Python Web Scraping",
+      "description": "Web scraping with Python.",
+      "link": "https://example.com/python-web-scraping"
+    },
+    {
+      "title": "JavaScript Testing",
+      "description": "Testing JavaScript applications.",
+      "link": "https://example.com/javascript-testing"
+    },
+    {
+      "title": "CSS Animations",
+      "description": "Creating animations with CSS.",
+      "link": "https://example.com/css-animations"
+    }
+  ]
+}

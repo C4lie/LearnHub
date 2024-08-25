@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Learn Programming - Courses</title>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <link
+      rel="stylesheet"
+      href="media-queries.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <a href="index.html"></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+    <!-- Courses Section -->
+    <section class="courses">
+      <div class="container">
+        <h2>Courses</h2>
+
+         <!-- Search Box -->
+         <input type="text" id="searchInput" placeholder="Search courses...">
+         <!-- Filter Button -->
+         <button id="filterButton">Filter</button>
+        
+        <ul
+          id="coursesGrid"
+          class="courses-grid"
+        >
+          <!-- Courses will be dynamically populated here -->
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        
+        <div class="newsletter">
+          <input
+            type="email"
+            placeholder="Subscribe to our newsletter"
+          />
+          <button>Subscribe</button>
+        </div>
+      </div>
+    </footer>
+
+    <script src="courses.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

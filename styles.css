@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* General Styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  overflow: visible;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+}
+
+.container {
+  flex: 1;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+/* Header Styles */
+header {
+  background-color: rgba(0, 123, 255, 0.7); /* Use RGBA color with opacity */
+  color: #ffffff;
+  padding: 5px;
+  position: relative;
+  backdrop-filter: blur(
+    10px
+  ); /* Apply backdrop filter to blur the background */
+}
+
+.header-content {
+  position: relative;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+
+  /* background-color: #007bff; */
+}
+
+/* Logo Styles */
+.logo {
+  width: 190px; /* Adjust the width of the logo */
+  height: 80px; /* Adjust the height of the logo */
+  margin-right: 20px; /* Add some spacing between the logo and the navigation */
+  position: relative;
+}
+
+.logo a {
+  display: block; /* Make the anchor tag a block element */
+  width: 100%;
+  height: 100%;
+  background-image: url('images/logo.png'); /* Path to your logo image */
+  background-size: cover; /* Ensure the image covers the area */
+  background-position: center; /* Center the background image */
+}
+
+/* Navigation Styles */
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+header nav ul li {
+  margin: 0 15px;
+  position: relative;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #000909; /* Change color on hover */
+  text-decoration: underline; /* Add underline on hover */
+  /* Add any other hover effects you desire */
+}
+
+/* Hero Section Styles */
+.hero {
+  padding: 300px 0;
+  text-align: center;
+  background-image: url('images/background-image.jpg'); /* Specify the path to your background image */
+  background-size: cover; /* Cover the entire viewport with the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero .cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Featured Tutorials Section */
+.featured-tutorials {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.featured-tutorials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tutorials-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tutorial {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+}
+
+/* Course Section Styles */
+.course-section {
+  padding: 20px;
+}
+
+/* Course Container Styles */
+#courses {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Responsive grid */
+  gap: 20px; /* Adjust the gap between courses */
+}
+
+/* Courses Section Styles */
+.courses {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.courses h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Courses Grid Styles */
+.courses-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33% - 20px);
+  max-width: calc(33% - 20px);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.course h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.course p {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.course a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.course a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Updated Search Bar Styles */
+.search-bar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+#searchInput {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(225, 220, 220);
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+#searchInput::placeholder {
+  color: #999;
+}
+
+#searchInput:focus {
+  outline: none;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#filterButton {
+  padding: 12px 20px; /* Adjust padding */
+  border: none;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+#filterButton:hover {
+  background-color: #000000; /* Change background color on hover */
+}
+
+/* Courses Section Styles */
+.courses {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.courses h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Courses Grid Styles */
+.courses-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33% - 20px);
+  max-width: calc(33% - 20px);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.course h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.course p {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.course a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.course a:hover {
+  text-decoration: underline;
+}
+/* Resources Section Styles */
+.resources {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.resources h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Resources Grid Styles */
+.resources-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resource {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33% - 20px);
+  max-width: calc(33% - 20px);
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.resource h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.resource p {
+  margin-bottom: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.resource a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.resource a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Search Box Styles */
+#searchInputResources {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(225, 220, 220);
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+#searchInputResources::placeholder {
+  color: #999;
+}
+
+#searchInputResources:focus {
+  outline: none;
+  background-color: #fff; /* Change background color on focus */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add shadow on focus */
+}
+
+/* Filter Button Styles */
+#filterButtonResources {
+  padding: 12px 20px; /* Adjust padding */
+  border: none;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+#filterButtonResources:hover {
+  background-color: #000000; /* Change background color on hover */
+}
+
+/* About Section */
+.about {
+  background-color: #ffffff; /* Light gray background */
+  padding: 50px 0;
+  text-align: center; /* Center align the content */
+}
+
+.about h2 {
+  color: #000000; /* Dark text color for heading */
+  font-size: 28px; /* Larger font size for heading */
+  margin-bottom: 30px; /* Decrease margin for better spacing */
+}
+
+.about p {
+  color: #333; /* Slightly darker text color for paragraphs */
+  font-size: 16px; /* Standard font size for paragraphs */
+  line-height: 1.6; /* Increased line height for better readability */
+  margin-bottom: 20px; /* Decrease margin for better spacing */
+}
+
+/* Contact Section */
+/* Styles for the form and image layout */
+.contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* max-width: 900px; */
+  /* margin: auto; */
+}
+
+.contact-image {
+  flex: 1;
+  width: 10px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.testimonials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonials-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  background-color: rgba(0, 123, 255, 0.7); /* Use RGBA color with opacity */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+  flex-shrink: 0; /* Prevents footer from shrinking */
+}
+
+.footer-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-links {
+  margin-bottom: 20px;
+}
+
+footer .footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s; /* Add transition effect for smooth color change */
+}
+
+footer .footer-links a:hover {
+  color: #000000; /* Change color on hover */
+}
+
+footer .social-media {
+  margin-bottom: 20px;
+}
+
+footer .social-media a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer .newsletter {
+  margin-top: 20px;
+}
+
+footer .newsletter input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+footer .newsletter button {
+  padding: 5px 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
